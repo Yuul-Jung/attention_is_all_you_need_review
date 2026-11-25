@@ -4,6 +4,7 @@ Vaswani 외(2017) 「[Attention Is All You Need](https://arxiv.org/abs/1706.0376
 
 - 사이트: `dist/index.html` (GitHub Pages에서는 저장소 첫 화면이 `dist/`로 이어짐)
 - 논문 큰 그림: `figs/bigpicture.svg` · 편집 원본 `diagrams/bigpicture_pages.json`
+- 장별 큰 그림: `figs/c01_bigpicture.svg` ~ `c10_bigpicture.svg` · 편집 원본 `diagrams/chapter_maps_pages.json` (10페이지)
 
 ## 📘 교육용 HTML 공통 제작 규칙
 
@@ -30,7 +31,7 @@ Vaswani 외(2017) 「[Attention Is All You Need](https://arxiv.org/abs/1706.0376
 | 9 | §6 | 표 2 · 표 3 · 표 4 |
 | 10 | §7 · 부록 | 결론 · 원문 그림 3 · 그 뒤의 흐름 (논문 밖 내용) |
 
-장마다: 이 장의 큰 그림(전체 지도) → 순서 · 쉬운 풀이 표 → 절마다 「이 절에서 할 일」 · 원문 요지 · 그림 · 「쉽게 말하면」 → 「이 장 정리」 · 「자주 하는 오해」.
+장마다: 이 장의 큰 그림(전체 지도 + 장별 큰 그림) → 쉬운 풀이 표 → 절마다 「이 절에서 할 일」 · 원문 요지 · 그림 · 「쉽게 말하면」 → 「이 장 정리」 · 「자주 하는 오해」.
 
 ## 폴더
 
@@ -39,18 +40,22 @@ Vaswani 외(2017) 「[Attention Is All You Need](https://arxiv.org/abs/1706.0376
 | `content_src/chNN.md` | 장별 원고 (번호는 `@`, `#`로 비워 둠) |
 | `content/chNN.md` | 번호를 붙인 원고 (`tools/number.py` 생성물) |
 | `code/ex*.py` · `code/ex*.out` | 숫자 검증 예제와 실제 실행 출력 (Python 3 · NumPy) |
-| `figs/` | 그림 37개(SVG) · 원문 그림 3개(PNG) |
+| `figs/` | 그림 47개(SVG) · 원문 그림 3개(PNG) |
 | `diagrams/bigpicture_pages.json` | 논문 큰 그림, [svg-flow-editor](https://github.com/Yuul-Jung/svg-flow-editor) 형식 |
+| `diagrams/chapter_maps_pages.json` | 장별 큰 그림 10페이지, 같은 형식 |
 | `tools/make_figs.py` · `tools/svglib.py` | 그림 생성 |
-| `tools/make_bigpicture.py` · `tools/export_editor_svg.py` | 큰 그림 JSON 생성 · 편집기로 SVG 내보내기 |
+| `tools/make_bigpicture.py` · `tools/make_chapter_maps.py` | 논문·장별 큰 그림 JSON 생성 |
+| `tools/export_editor_svg.py` | 편집기에 불러와 품질 검사 후 SVG 내보내기 (여러 페이지 지원) |
 | `build.py` · `embed_svg.py` · `assets/` | rule_md 생성기 · 꾸밈과 그림 넣기 · 스타일 |
-| `dist/` | 배포용 HTML 11개 (첫 화면 + 10장, 그림 내장) |
+| `dist/` | 배포용 HTML 11개 (첫 화면 + 10장 `_v02`, 그림 내장) |
 
 ## 다시 만들기
 
 ```bash
 python -m pip install mistune numpy matplotlib
 ./tools/build_all.sh          # 예제 실행 → 그림 → 번호 → HTML → 그림 넣기
+# 큰 그림 SVG까지 다시 내보낼 때 (playwright · Chrome 필요)
+FLOW_EDITOR=../svg-flow-editor/index.html ./tools/build_all.sh
 ```
 
 큰 그림을 고칠 때:
@@ -60,6 +65,7 @@ python -m pip install mistune numpy matplotlib
 
 ```bash
 python tools/export_editor_svg.py ../svg-flow-editor/index.html diagrams/bigpicture_pages.json figs/bigpicture.svg
+python tools/export_editor_svg.py ../svg-flow-editor/index.html diagrams/chapter_maps_pages.json 'figs/c{n}_bigpicture.svg'
 ```
 
 편집기의 `svgString()`은 제목 선택용 상자(`.heading-hit`)를 SVG에 남깁니다. fill이 없어 편집기 밖에서 검은 상자로 보이므로, 내보내기 도구가 이 상자를 지웁니다.
@@ -69,7 +75,7 @@ python tools/export_editor_svg.py ../svg-flow-editor/index.html diagrams/bigpict
 1. 원문 첫 줄의 허락 문구(출처를 밝히면 학술·보도 목적으로 표와 그림 사용 가능)에 따라 원문 그림 1~3과 표 1~4를 출처와 함께 싣습니다.
 2. 본문 문장은 옮겨 싣지 않고 우리말 요지로 다시 썼습니다.
 
-## 검증 (v01)
+## 검증 (v02)
 
 | 항목 | 판정 | 내용 |
 |---|---|---|
@@ -78,7 +84,14 @@ python tools/export_editor_svg.py ../svg-flow-editor/index.html diagrams/bigpict
 | 원문 숫자 재계산 | 통과 | 각주 4 분산 = dk, 식 (3) 최고점 6.99e-4, 표 2 FLOPs 3.28e18 · 2.30e19 |
 | 가중치 수 | 근사 | base 63.1M (표 3: 65M), big 214.2M (표 3: 213M). 어휘 크기 등 가정 포함 |
 | 화면 | 통과 | 1366 · 390 · 320px 가로 넘침 0, 그림 깨짐 0, 콘솔 오류 0, 내부 링크 정상 |
-| 큰 그림 | 통과 | svg-flow-editor `inspectDiagramQuality()` 지적 0건 |
+| 큰 그림 | 통과 | svg-flow-editor `inspectDiagramQuality()` 지적 0건 (논문 1페이지 + 장별 10페이지) |
 | GitHub Pages 실제 배포 | 미검증 | 저장소 Pages 설정 후 확인 필요 |
 
 원문 확인 사항: 영→프 BLEU는 초록·표 2가 41.8, 6.1절 본문이 41.0입니다. 해설서는 표 2를 기준으로 하고 두 값을 함께 밝혔습니다.
+
+## 변경 이력
+
+| 판 | 내용 |
+|---|---|
+| v02 | 장마다 「이 장은 이런 순서로 이야기합니다」 글 목록을 svg-flow-editor 장별 큰 그림으로 바꿈 (원문 위치 → 핵심·근거 → 볼 그림·코드) |
+| v01 | 첫 게시: 원문 순서 10개 장, 논문 큰 그림, 숫자 검증 예제 10개 |

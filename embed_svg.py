@@ -22,7 +22,7 @@ def sub(pat, rep, h, key, flags=0):
 
 
 def pretty(h):
-    cap = r'((?:쉬운 그림|그림|원문 그림) \d+(?:\.\d+)?\.)'
+    cap = r'((?:쉬운 그림|그림|원문 그림) \d+(?:\.\d+)?\.|큰 그림\.)'
     h = sub(r'<p>(<img src="figs/[^>]+/>)</p>\s*<p><strong>' + cap + r'</strong>(.*?)</p>',
             r'<figure class="fig"><div class="fig-in">\1</div><figcaption><b>\2</b>\3</figcaption></figure>',
             h, '그림 액자', re.S)
