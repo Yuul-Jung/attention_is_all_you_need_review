@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="260" viewBox="0 0 780 260" role="img"><defs><marker id="ah4635B1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4635B1"/></marker></defs>
+<rect x="0" y="0" width="780" height="260" fill="#FFFFFF"/>
+<text x="86.0" y="46" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="700" fill="#172439" text-anchor="middle" dominant-baseline="middle">① MatMul: QKᵀ</text>
+<rect x="20" y="60" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="42.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="64" y="60" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="86.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0</text>
+<rect x="108" y="60" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="130.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="20" y="104" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="42.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0</text>
+<rect x="64" y="104" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="86.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="108" y="104" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="130.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="20" y="148" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="42.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1</text>
+<rect x="64" y="148" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="86.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1</text>
+<rect x="108" y="148" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="130.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="288.0" y="46" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="700" fill="#172439" text-anchor="middle" dominant-baseline="middle">② Scale: ÷√dk (=2)</text>
+<rect x="222" y="60" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="244.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1.0</text>
+<rect x="266" y="60" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="288.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.0</text>
+<rect x="310" y="60" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="332.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1.0</text>
+<rect x="222" y="104" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="244.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.0</text>
+<rect x="266" y="104" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="288.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1.0</text>
+<rect x="310" y="104" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="332.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1.0</text>
+<rect x="222" y="148" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="244.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.5</text>
+<rect x="266" y="148" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="288.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.5</text>
+<rect x="310" y="148" width="44" height="44" fill="#fff" stroke="#C9CCC4" stroke-width="1"/>
+<text x="332.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">1.0</text>
+<text x="490.0" y="46" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="700" fill="#172439" text-anchor="middle" dominant-baseline="middle">③ SoftMax (행 합 1)</text>
+<rect x="424" y="60" width="44" height="44" fill="rgba(70,53,177,0.54)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="446.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.42</text>
+<rect x="468" y="60" width="44" height="44" fill="rgba(70,53,177,0.25)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="490.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.16</text>
+<rect x="512" y="60" width="44" height="44" fill="rgba(70,53,177,0.54)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="534.0" y="82.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.42</text>
+<rect x="424" y="104" width="44" height="44" fill="rgba(70,53,177,0.25)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="446.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.16</text>
+<rect x="468" y="104" width="44" height="44" fill="rgba(70,53,177,0.54)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="490.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.42</text>
+<rect x="512" y="104" width="44" height="44" fill="rgba(70,53,177,0.54)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="534.0" y="126.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.42</text>
+<rect x="424" y="148" width="44" height="44" fill="rgba(70,53,177,0.38)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="446.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.27</text>
+<rect x="468" y="148" width="44" height="44" fill="rgba(70,53,177,0.38)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="490.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.27</text>
+<rect x="512" y="148" width="44" height="44" fill="rgba(70,53,177,0.58)" stroke="#C9CCC4" stroke-width="1"/>
+<text x="534.0" y="170.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">0.45</text>
+<path d="M 160 126 L 214 126" fill="none" stroke="#4635B1" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah4635B1)"/>
+<path d="M 362 126 L 416 126" fill="none" stroke="#4635B1" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah4635B1)"/>
+<path d="M 564 126 L 620 126" fill="none" stroke="#4635B1" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ah4635B1)"/>
+<rect x="622" y="90" width="146" height="72" rx="3" fill="#FCE3C7" stroke="#C77A1F" stroke-width="1.8"/>
+<text x="695.0" y="116.9" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">④ MatMul</text>
+<text x="695.0" y="135.1" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">가중치 × V</text>
+<text x="390" y="222" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13.5" font-weight="600" fill="#273E5E" text-anchor="middle" dominant-baseline="middle">행 = 쿼리(읽는 위치) · 열 = 키(참고할 위치). 셋째 행은 k3 을 가장 많이(0.45) 참고</text>
+<text x="390" y="246" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">숫자는 code/ex05_scaled_dot_product.py 실행 결과</text>
+</svg>

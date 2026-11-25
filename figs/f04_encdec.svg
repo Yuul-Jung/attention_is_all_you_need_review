@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img"><defs><marker id="ah5A1E1E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5A1E1E"/></marker><marker id="ahB0412A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#B0412A"/></marker></defs>
+<rect x="0" y="0" width="780" height="250" fill="#FFFFFF"/>
+<text x="16" y="22" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="600" fill="#676D78" text-anchor="start" dominant-baseline="middle">번역 예: 영어 문장 → 독일어 문장</text>
+<rect x="16" y="50" width="70" height="34" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="51.0" y="67.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">I</text>
+<path d="M 88 67 L 118 67" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="16" y="94" width="70" height="34" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="51.0" y="111.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">love</text>
+<path d="M 88 111 L 118 111" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="16" y="138" width="70" height="34" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="51.0" y="155.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">you</text>
+<path d="M 88 155 L 118 155" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="120" y="50" width="150" height="122" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="195.0" y="99.3" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="18" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">인코더</text>
+<text x="195.0" y="122.7" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">(x1 … xn) → z</text>
+<rect x="300" y="50" width="64" height="34" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="332.0" y="67.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">z1</text>
+<path d="M 272 67 L 298 67" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="300" y="94" width="64" height="34" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="332.0" y="111.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">z2</text>
+<path d="M 272 111 L 298 111" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="300" y="138" width="64" height="34" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="332.0" y="155.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">z3</text>
+<path d="M 272 155 L 298 155" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="420" y="50" width="150" height="122" rx="3" fill="#FCE3C7" stroke="#C77A1F" stroke-width="1.8"/>
+<text x="495.0" y="99.3" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="18" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">디코더</text>
+<text x="495.0" y="122.7" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">z 와 앞서 만든 y</text>
+<path d="M 366 111 L 418 111" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="620" y="50" width="80" height="34" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="660.0" y="67.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">Ich</text>
+<circle cx="718" cy="67" r="9.35" fill="#4635B1" stroke="#4635B1" stroke-width="1"/>
+<text x="718" y="67.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">1</text>
+<rect x="620" y="94" width="80" height="34" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="660.0" y="111.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">liebe</text>
+<circle cx="718" cy="111" r="9.35" fill="#4635B1" stroke="#4635B1" stroke-width="1"/>
+<text x="718" y="111.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="620" y="138" width="80" height="34" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="660.0" y="155.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">dich</text>
+<circle cx="718" cy="155" r="9.35" fill="#4635B1" stroke="#4635B1" stroke-width="1"/>
+<text x="718" y="155.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">3</text>
+<path d="M 572 111 L 618 111" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 660 186 L 660 212 L 495 212 L 495 174" fill="none" stroke="#B0412A" stroke-width="2" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<text x="578" y="230" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="600" fill="#B0412A" text-anchor="middle" dominant-baseline="middle">만든 단어를 다시 넣어 다음 단어를 만든다 (자기회귀)</text>
+<text x="195" y="200" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="600" fill="#2C7DA0" text-anchor="middle" dominant-baseline="middle">입력 전체를 한꺼번에 읽음</text>
+</svg>

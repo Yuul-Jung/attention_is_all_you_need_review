@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="350" viewBox="0 0 780 350" role="img"><defs><marker id="ah5A1E1E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5A1E1E"/></marker><marker id="ahB0412A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#B0412A"/></marker></defs>
+<rect x="0" y="0" width="780" height="350" fill="#FFFFFF"/>
+<text x="20" y="20" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#172439" text-anchor="start" dominant-baseline="middle">① 순환 모델(RNN): 한 칸씩 차례로</text>
+<rect x="60" y="66" width="70" height="40" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="95.0" y="86.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h1</text>
+<rect x="70" y="132" width="50" height="30" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="95.0" y="147.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x1</text>
+<path d="M 95 132 L 95 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<circle cx="95" cy="50" r="9.35" fill="#B0412A" stroke="#B0412A" stroke-width="1"/>
+<text x="95" y="50.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">1</text>
+<rect x="200" y="66" width="70" height="40" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="235.0" y="86.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h2</text>
+<rect x="210" y="132" width="50" height="30" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="235.0" y="147.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x2</text>
+<path d="M 235 132 L 235 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 130 86 L 198 86" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<circle cx="235" cy="50" r="9.35" fill="#B0412A" stroke="#B0412A" stroke-width="1"/>
+<text x="235" y="50.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="340" y="66" width="70" height="40" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="375.0" y="86.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h3</text>
+<rect x="350" y="132" width="50" height="30" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="375.0" y="147.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x3</text>
+<path d="M 375 132 L 375 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 270 86 L 338 86" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<circle cx="375" cy="50" r="9.35" fill="#B0412A" stroke="#B0412A" stroke-width="1"/>
+<text x="375" y="50.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">3</text>
+<rect x="480" y="66" width="70" height="40" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="515.0" y="86.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h4</text>
+<rect x="490" y="132" width="50" height="30" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="515.0" y="147.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x4</text>
+<path d="M 515 132 L 515 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 410 86 L 478 86" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<circle cx="515" cy="50" r="9.35" fill="#B0412A" stroke="#B0412A" stroke-width="1"/>
+<text x="515" y="50.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">4</text>
+<rect x="620" y="66" width="70" height="40" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="655.0" y="86.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h5</text>
+<rect x="630" y="132" width="50" height="30" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="655.0" y="147.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x5</text>
+<path d="M 655 132 L 655 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 550 86 L 618 86" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<circle cx="655" cy="50" r="9.35" fill="#B0412A" stroke="#B0412A" stroke-width="1"/>
+<text x="655" y="50.5" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="middle">5</text>
+<text x="390" y="182" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="600" fill="#B0412A" text-anchor="middle" dominant-baseline="middle">앞 칸 계산이 끝나야 다음 칸을 시작합니다 → 5번 기다림</text>
+<text x="20" y="216" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#172439" text-anchor="start" dominant-baseline="middle">② Transformer: 모든 칸을 한꺼번에</text>
+<path d="M 95 264 Q 165.0 247.6 235 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 95 264 Q 235.0 239.2 375 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 95 264 Q 305.0 230.8 515 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 95 264 Q 375.0 222.4 655 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 235 264 Q 305.0 247.6 375 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 235 264 Q 375.0 239.2 515 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 235 264 Q 445.0 230.8 655 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 375 264 Q 445.0 247.6 515 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 375 264 Q 515.0 239.2 655 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<path d="M 515 264 Q 585.0 247.6 655 264" fill="none" stroke="#4635B1" stroke-width="1.3" opacity="0.55"/>
+<rect x="60" y="264" width="70" height="40" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="95.0" y="284.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x1</text>
+<rect x="200" y="264" width="70" height="40" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="235.0" y="284.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x2</text>
+<rect x="340" y="264" width="70" height="40" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="375.0" y="284.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x3</text>
+<rect x="480" y="264" width="70" height="40" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="515.0" y="284.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x4</text>
+<rect x="620" y="264" width="70" height="40" rx="3" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.8"/>
+<text x="655.0" y="284.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x5</text>
+<text x="390" y="328" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="600" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">모든 쌍을 한 번에 비교합니다 → 기다림 없이 병렬 계산</text>
+</svg>

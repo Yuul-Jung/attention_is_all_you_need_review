@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img"><defs><marker id="ahB0412A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#B0412A"/></marker><marker id="ahC77A1F" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#C77A1F"/></marker></defs>
+<rect x="0" y="0" width="780" height="250" fill="#FFFFFF"/>
+<rect x="14" y="14" width="366" height="222" rx="10" fill="#F7F7F4" stroke="#C9CCC4" stroke-width="1.2"/>
+<text x="197" y="38" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="15" font-weight="700" fill="#172439" text-anchor="middle" dominant-baseline="middle">2017년 전: RNN + 어텐션</text>
+<rect x="34" y="110" width="60" height="38" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="64.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h1</text>
+<rect x="120" y="110" width="60" height="38" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="150.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h2</text>
+<path d="M 94 129 L 118 129" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="206" y="110" width="60" height="38" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="236.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h3</text>
+<path d="M 180 129 L 204 129" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="292" y="110" width="60" height="38" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="322.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h4</text>
+<path d="M 266 129 L 290 129" fill="none" stroke="#B0412A" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="127" y="182" width="140" height="36" rx="3" fill="#FCE3C7" stroke="#C77A1F" stroke-width="1.8"/>
+<text x="197.0" y="200.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">어텐션</text>
+<path d="M 64 150 L 197 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<path d="M 150 150 L 197 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<path d="M 236 150 L 197 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<path d="M 322 150 L 197 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<text x="197" y="70" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="600" fill="#B0412A" text-anchor="middle" dominant-baseline="middle">뼈대는 여전히 차례 계산</text>
+<rect x="400" y="14" width="366" height="222" rx="10" fill="#EDEAFA" stroke="#4635B1" stroke-width="1.4"/>
+<text x="583" y="38" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="15" font-weight="700" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">이 논문: 어텐션만</text>
+<rect x="420" y="110" width="60" height="38" rx="3" fill="#fff" stroke="#4635B1" stroke-width="1.8"/>
+<text x="450.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x1</text>
+<rect x="506" y="110" width="60" height="38" rx="3" fill="#fff" stroke="#4635B1" stroke-width="1.8"/>
+<text x="536.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x2</text>
+<rect x="592" y="110" width="60" height="38" rx="3" fill="#fff" stroke="#4635B1" stroke-width="1.8"/>
+<text x="622.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x3</text>
+<rect x="678" y="110" width="60" height="38" rx="3" fill="#fff" stroke="#4635B1" stroke-width="1.8"/>
+<text x="708.0" y="129.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x4</text>
+<rect x="493" y="182" width="180" height="36" rx="3" fill="#FCE3C7" stroke="#C77A1F" stroke-width="1.8"/>
+<text x="583.0" y="200.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">셀프 어텐션</text>
+<path d="M 450 150 L 583 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<path d="M 536 150 L 583 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<path d="M 622 150 L 583 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<path d="M 708 150 L 583 182" fill="none" stroke="#C77A1F" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#ahC77A1F)"/>
+<text x="583" y="70" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="600" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">순환을 빼고 어텐션이 뼈대</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="200" viewBox="0 0 780 200" role="img"><defs></defs>
+<rect x="0" y="0" width="780" height="200" fill="#FFFFFF"/>
+<rect x="12" y="14" width="180" height="170" rx="10" fill="#fff" stroke="#C9CCC4" stroke-width="1.4"/>
+<rect x="12" y="14" width="180" height="8" rx="3" fill="#4635B1" stroke="#4635B1" stroke-width="0.1"/>
+<text x="102" y="70" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="30" font-weight="700" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">28.4</text>
+<text x="102" y="114" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13.5" font-weight="600" fill="#172439" text-anchor="middle" dominant-baseline="middle">BLEU · 영어→독일어</text>
+<text x="102" y="144" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">앙상블 포함 기존 최고보다</text>
+<text x="102" y="163" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">2 이상 높음</text>
+<rect x="204" y="14" width="180" height="170" rx="10" fill="#fff" stroke="#C9CCC4" stroke-width="1.4"/>
+<rect x="204" y="14" width="180" height="8" rx="3" fill="#4635B1" stroke="#4635B1" stroke-width="0.1"/>
+<text x="294" y="70" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="30" font-weight="700" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">41.8</text>
+<text x="294" y="114" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13.5" font-weight="600" fill="#172439" text-anchor="middle" dominant-baseline="middle">BLEU · 영어→프랑스어</text>
+<text x="294" y="144" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">단일 모델 최고 기록</text>
+<text x="294" y="163" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">(본문 6.1절은 41.0)</text>
+<rect x="396" y="14" width="180" height="170" rx="10" fill="#fff" stroke="#C9CCC4" stroke-width="1.4"/>
+<rect x="396" y="14" width="180" height="8" rx="3" fill="#4635B1" stroke="#4635B1" stroke-width="0.1"/>
+<text x="486" y="70" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="30" font-weight="700" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">3.5일</text>
+<text x="486" y="114" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13.5" font-weight="600" fill="#172439" text-anchor="middle" dominant-baseline="middle">GPU 8장 학습 시간</text>
+<text x="486" y="144" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">big 모델</text>
+<text x="486" y="163" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">기존 모델 비용의 일부</text>
+<rect x="588" y="14" width="180" height="170" rx="10" fill="#fff" stroke="#C9CCC4" stroke-width="1.4"/>
+<rect x="588" y="14" width="180" height="8" rx="3" fill="#4635B1" stroke="#4635B1" stroke-width="0.1"/>
+<text x="678" y="70" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="23" font-weight="700" fill="#4635B1" text-anchor="middle" dominant-baseline="middle">91.3 / 92.7</text>
+<text x="678" y="114" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13.5" font-weight="600" fill="#172439" text-anchor="middle" dominant-baseline="middle">영어 구문 분석 F1</text>
+<text x="678" y="144" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">번역 말고 다른 과제에도</text>
+<text x="678" y="163" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">통함</text>
+</svg>

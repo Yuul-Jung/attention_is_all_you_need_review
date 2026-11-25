@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="290" viewBox="0 0 780 290" role="img"><defs><marker id="ah5A1E1E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5A1E1E"/></marker></defs>
+<rect x="0" y="0" width="780" height="290" fill="#FFFFFF"/>
+<text x="390" y="20" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" fill="#172439" text-anchor="middle" dominant-baseline="middle">FFN(x) = max(0, x·W1 + b1)·W2 + b2</text>
+<rect x="30" y="236" width="140" height="36" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="100.0" y="254.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">위치 1 · 512</text>
+<rect x="30" y="172" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="100.0" y="189.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W1 : 512 → 2048</text>
+<rect x="50" y="122" width="100" height="30" rx="3" fill="#FFF6C9" stroke="#B98300" stroke-width="1.8"/>
+<text x="100.0" y="137.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">ReLU</text>
+<rect x="30" y="68" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="100.0" y="85.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W2 : 2048 → 512</text>
+<path d="M 100 236 L 100 208" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 100 172 L 100 154" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 100 122 L 100 104" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 100 68 L 100 44" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="220" y="236" width="140" height="36" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="290.0" y="254.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">위치 2 · 512</text>
+<rect x="220" y="172" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="290.0" y="189.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W1 : 512 → 2048</text>
+<rect x="240" y="122" width="100" height="30" rx="3" fill="#FFF6C9" stroke="#B98300" stroke-width="1.8"/>
+<text x="290.0" y="137.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">ReLU</text>
+<rect x="220" y="68" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="290.0" y="85.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W2 : 2048 → 512</text>
+<path d="M 290 236 L 290 208" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 290 172 L 290 154" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 290 122 L 290 104" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 290 68 L 290 44" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="410" y="236" width="140" height="36" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="480.0" y="254.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">위치 3 · 512</text>
+<rect x="410" y="172" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="480.0" y="189.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W1 : 512 → 2048</text>
+<rect x="430" y="122" width="100" height="30" rx="3" fill="#FFF6C9" stroke="#B98300" stroke-width="1.8"/>
+<text x="480.0" y="137.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">ReLU</text>
+<rect x="410" y="68" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="480.0" y="85.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W2 : 2048 → 512</text>
+<path d="M 480 236 L 480 208" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 480 172 L 480 154" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 480 122 L 480 104" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 480 68 L 480 44" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="600" y="236" width="140" height="36" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="670.0" y="254.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">위치 4 · 512</text>
+<rect x="600" y="172" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="670.0" y="189.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W1 : 512 → 2048</text>
+<rect x="620" y="122" width="100" height="30" rx="3" fill="#FFF6C9" stroke="#B98300" stroke-width="1.8"/>
+<text x="670.0" y="137.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">ReLU</text>
+<rect x="600" y="68" width="140" height="34" rx="3" fill="#D3ECF7" stroke="#2C7DA0" stroke-width="1.8"/>
+<text x="670.0" y="85.0" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="12.5" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">W2 : 2048 → 512</text>
+<path d="M 670 236 L 670 208" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 670 172 L 670 154" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 670 122 L 670 104" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<path d="M 670 68 L 670 44" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+</svg>

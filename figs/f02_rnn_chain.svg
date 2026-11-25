@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" viewBox="0 0 780 250" role="img"><defs><marker id="ahB0412A" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#B0412A"/></marker><marker id="ah5A1E1E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5A1E1E"/></marker></defs>
+<rect x="0" y="0" width="780" height="250" fill="#FFFFFF"/>
+<rect x="40" y="60" width="74" height="46" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="77.0" y="83.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h0</text>
+<rect x="160" y="60" width="74" height="46" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="197.0" y="83.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h1</text>
+<path d="M 114 83 L 158 83" fill="none" stroke="#B0412A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="172" y="150" width="50" height="32" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="197.0" y="166.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x1</text>
+<path d="M 197 150 L 197 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="280" y="60" width="74" height="46" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="317.0" y="83.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h2</text>
+<path d="M 234 83 L 278 83" fill="none" stroke="#B0412A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="292" y="150" width="50" height="32" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="317.0" y="166.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x2</text>
+<path d="M 317 150 L 317 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="400" y="60" width="74" height="46" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="437.0" y="83.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h3</text>
+<path d="M 354 83 L 398 83" fill="none" stroke="#B0412A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="412" y="150" width="50" height="32" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="437.0" y="166.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x3</text>
+<path d="M 437 150 L 437 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="520" y="60" width="74" height="46" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="557.0" y="83.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">h4</text>
+<path d="M 474 83 L 518 83" fill="none" stroke="#B0412A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="532" y="150" width="50" height="32" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="557.0" y="166.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">x4</text>
+<path d="M 557 150 L 557 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<rect x="640" y="60" width="74" height="46" rx="3" fill="#EEEFEA" stroke="#8A8F98" stroke-width="1.8"/>
+<text x="677.0" y="83.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">ht</text>
+<path d="M 594 83 L 638 83" fill="none" stroke="#B0412A" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ahB0412A)"/>
+<rect x="652" y="150" width="50" height="32" rx="3" fill="#fff" stroke="#C9CCC4" stroke-width="1.8"/>
+<text x="677.0" y="166.0" font-family="'IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="500" fill="#172439" text-anchor="middle" dominant-baseline="middle">xt</text>
+<path d="M 677 150 L 677 108" fill="none" stroke="#5A1E1E" stroke-width="2.0" stroke-linejoin="round" marker-end="url(#ah5A1E1E)"/>
+<text x="390" y="30" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="15" font-weight="600" fill="#172439" text-anchor="middle" dominant-baseline="middle">ht = f( ht−1 , xt ) : 앞 상태와 지금 입력으로 다음 상태를 만든다</text>
+<text x="390" y="214" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="14" font-weight="600" fill="#B0412A" text-anchor="middle" dominant-baseline="middle">같은 문장 안에서는 h1 → h2 → … 순서를 건너뛸 수 없다 (병렬 불가)</text>
+<text x="390" y="236" font-family="'IBM Plex Sans KR','Malgun Gothic','Apple SD Gothic Neo','Noto Sans CJK KR','Noto Sans KR',sans-serif" font-size="13" font-weight="400" fill="#676D78" text-anchor="middle" dominant-baseline="middle">문장이 길수록 기다림이 길고, 메모리 때문에 여러 문장을 한꺼번에 묶기도 어렵다</text>
+</svg>

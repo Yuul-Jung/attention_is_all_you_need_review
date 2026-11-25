@@ -1,0 +1,19 @@
+{
+  "site_title": "Attention Is All You Need 원문 해설서",
+  "site_subtitle": "2017년 Transformer 논문을 원문 순서대로 · 초록부터 7절과 부록까지 10개 장",
+  "site_description": "Vaswani 외(2017) 「Attention Is All You Need」(arXiv 1706.03762 v7)를 원문 순서대로 읽는 학습안내서입니다. 절마다 원문 요지, 그림, 쉬운 풀이, 숫자 검증 코드를 둡니다. 원문 그림과 표는 원문 첫 쪽의 허락 문구에 따라 출처를 밝혀 싣고, 본문 문장은 우리말 요지로 다시 정리했습니다.",
+  "course_code": "AIAYN 2017",
+  "version": "v01",
+  "chapters": [
+    {"id": "ch01", "number": 1, "title": "논문 한눈에 · 초록", "subtitle": "논문 정보 · 논문 큰 그림 · 초록의 주장 다섯 가지", "slug": "ch01_abstract", "version": "v01", "source": "content/ch01.md", "tags": ["초록", "논문 큰 그림"]},
+    {"id": "ch02", "number": 2, "title": "서론 · 순환 모델의 한계", "subtitle": "§1 · RNN의 차례 계산 · RNN에 붙은 어텐션 · 제안", "slug": "ch02_introduction", "version": "v01", "source": "content/ch02.md", "tags": ["§1", "RNN"]},
+    {"id": "ch03", "number": 3, "title": "배경 · 앞선 시도들", "subtitle": "§2 · 합성곱 모델의 경로 길이 · 셀프 어텐션 · 메모리 네트워크", "slug": "ch03_background", "version": "v01", "source": "content/ch03.md", "tags": ["§2", "ConvS2S", "ByteNet"]},
+    {"id": "ch04", "number": 4, "title": "전체 구조 · 인코더와 디코더", "subtitle": "§3 · §3.1 · 그림 1 · 6층 스택 · 잔차 연결과 LayerNorm · 한 칸 밀기", "slug": "ch04_architecture", "version": "v01", "source": "content/ch04.md", "tags": ["§3", "§3.1", "그림 1"]},
+    {"id": "ch05", "number": 5, "title": "어텐션", "subtitle": "§3.2 · 식 (1) · √dk로 나누는 이유 · 멀티헤드 · 세 가지 쓰임과 마스크", "slug": "ch05_attention", "version": "v01", "source": "content/ch05.md", "tags": ["§3.2", "그림 2", "식 (1)"]},
+    {"id": "ch06", "number": 6, "title": "FFN · 임베딩 · 위치 인코딩", "subtitle": "§3.3 · §3.4 · §3.5 · 식 (2) · 가중치 공유 · 사인·코사인 위치", "slug": "ch06_ffn_embedding_position", "version": "v01", "source": "content/ch06.md", "tags": ["§3.3", "§3.4", "§3.5"]},
+    {"id": "ch07", "number": 7, "title": "왜 셀프 어텐션인가", "subtitle": "§4 · 표 1 · 계산량 · 순차 단계 · 최대 경로 길이", "slug": "ch07_why_self_attention", "version": "v01", "source": "content/ch07.md", "tags": ["§4", "표 1"]},
+    {"id": "ch08", "number": 8, "title": "학습 방법", "subtitle": "§5 · 데이터 · 하드웨어 · Adam과 식 (3) · Dropout · Label Smoothing", "slug": "ch08_training", "version": "v01", "source": "content/ch08.md", "tags": ["§5", "식 (3)"]},
+    {"id": "ch09", "number": 9, "title": "결과", "subtitle": "§6 · 표 2 번역 · 표 3 변형 실험 · 표 4 구문 분석", "slug": "ch09_results", "version": "v01", "source": "content/ch09.md", "tags": ["§6", "표 2", "표 3", "표 4"]},
+    {"id": "ch10", "number": 10, "title": "결론과 그 뒤", "subtitle": "§7 · 부록 어텐션 시각화 · BERT·GPT·ViT로 이어진 흐름", "slug": "ch10_conclusion", "version": "v01", "source": "content/ch10.md", "tags": ["§7", "부록"]}
+  ]
+}

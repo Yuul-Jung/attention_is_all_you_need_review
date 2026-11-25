@@ -1,0 +1,7 @@
+step=     1  lrate=1.75e-07
+step=  1000  lrate=1.75e-04
+step=  2000  lrate=3.49e-04
+step=  4000  lrate=6.99e-04
+step=  8000  lrate=4.94e-04
+step= 16000  lrate=3.49e-04
+step=100000  lrate=1.40e-04
