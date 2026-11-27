@@ -47,9 +47,14 @@ Vaswani 외(2017) 「[Attention Is All You Need](https://arxiv.org/abs/1706.0376
 | `tools/make_bigpicture.py` · `tools/make_chapter_maps.py` | 논문·장별 큰 그림 JSON 생성 |
 | `tools/export_editor_svg.py` | 편집기에 불러와 품질 검사 후 SVG 내보내기 (여러 페이지 지원) |
 | `build.py` · `embed_svg.py` · `assets/` | rule_md 생성기 · 꾸밈과 그림 넣기 · 스타일 |
-| `dist/` | 배포용 HTML 11개 (첫 화면 + 10장 `_v02`, 그림 내장) |
+| `dist/` | 배포용 HTML 11개 (첫 화면 + 10장 `_v05`, 그림 내장) · `dist/code/` 본문에서 여는 예제 |
+| `code/ch*_example_*.py` | 본문 링크용 예제 이름. 같은 번호의 `ex*.py`와 바이트가 같음(`ch05_example_04.py`만 따로) |
+| `requirements.txt` | 예제 의존성 (numpy) |
+| `검증기록/` | 통합본 v13 장별·최종 검증 기록과 분리 배포 검증 기록 v14 |
 
 ## 다시 만들기
+
+> **주의 (v05):** `dist/`의 v05 HTML은 원문 해설서·쉬운 해설서 통합본 v13에서 원문 해설서만 분리한 배포본(v14 검증)을 그대로 넣은 것입니다. `content_src/` 원고는 아직 v02 기준이라 v05 본문 수정이 들어 있지 않습니다. 원고를 v05에 맞추기 전에 `build_all.sh`나 `build.py`를 실행하면 `dist/`가 v02 내용으로 돌아갑니다.
 
 ```bash
 python -m pip install mistune numpy matplotlib
@@ -75,6 +80,20 @@ python tools/export_editor_svg.py ../svg-flow-editor/index.html diagrams/chapter
 1. 원문 첫 줄의 허락 문구(출처를 밝히면 학술·보도 목적으로 표와 그림 사용 가능)에 따라 원문 그림 1~3과 표 1~4를 출처와 함께 싣습니다.
 2. 본문 문장은 옮겨 싣지 않고 우리말 요지로 다시 썼습니다.
 
+## 검증 (v05)
+
+| 항목 | 판정 | 내용 |
+|---|---|---|
+| 내부 링크 | 통과 | 11쪽의 장·절·이전/다음·예제 링크 대상 확인 (`dist/code/` 포함) |
+| 예제 실행 | 통과 | `code/*.py` 21개 실행. `ex*.out` 10개는 v02 출력과 같음 |
+| 바뀐 예제 | 통과 | `ex05_variance.py` 주석, `ex08_lrate.py` step ≥ 1 검사 추가. 출력 변화 없음 |
+| 화면 | 통과 | 1366 · 390px에서 11쪽 가로 넘침 0, 깨진 그림 0, 콘솔 오류 0, 좌측 목차 생성 |
+| 개인정보·로컬 경로 | 통과 | 전자우편·전화·로컬 경로 문자열 없음 |
+| 원고 동기화 | 미검증 | `content_src/`는 v02 기준, v05 본문과 맞추지 않음 |
+| GitHub Pages 실제 배포 | 미검증 | 저장소 Pages 설정 후 확인 필요 |
+
+이전 판의 검증 기록은 `검증기록/`에 있습니다.
+
 ## 검증 (v02)
 
 | 항목 | 판정 | 내용 |
@@ -93,5 +112,6 @@ python tools/export_editor_svg.py ../svg-flow-editor/index.html diagrams/chapter
 
 | 판 | 내용 |
 |---|---|
+| v05 | 통합본 v13에서 분리한 원문 해설서 v14 배포본 반영: 용어 풀이를 정의 중심으로 고침, 절마다 논문 근거·한계 문장 보강(예: 2장 순차 의존성과 연산량, 세 종류의 어텐션, 학습과 추론의 차이), 예제 링크 `code/ch*_example_*.py`, 검증 기록 추가 |
 | v02 | 장마다 「이 장은 이런 순서로 이야기합니다」 글 목록을 svg-flow-editor 장별 큰 그림으로 바꿈 (원문 위치 → 핵심·근거 → 볼 그림·코드) |
 | v01 | 첫 게시: 원문 순서 10개 장, 논문 큰 그림, 숫자 검증 예제 10개 |

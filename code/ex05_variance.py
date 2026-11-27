@@ -1,4 +1,4 @@
-# 각주 4: q, k 성분이 평균 0, 분산 1 이면 q·k 의 분산은 d_k 가 된다. 그래서 sqrt(d_k) 로 나눈다.
+# 내적 분산 각주: q, k 성분이 평균 0, 분산 1 이면 q·k 의 분산은 d_k 가 된다. 그래서 sqrt(d_k) 로 나눈다.
 import numpy as np
 
 rng = np.random.default_rng(0)
